@@ -22,7 +22,7 @@ const About = () => {
               lasting change.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-0 rounded-none my-2 md:my-6">
+          <div className="grid grid-cols-3 gap-0 rounded-none my-2 md:my-6">
             <div className="card border rounded-none border-zinc-100 w-96 shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Software Engineering</h2>
