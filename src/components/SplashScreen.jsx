@@ -8,13 +8,13 @@ const SplashScreen = ({ onFinish }) => {
 
   useEffect(() => {
     // Start title animation after 500ms
-    const titleTimer = setTimeout(() => setAnimateTitle(true), 500);
+    const titleTimer = setTimeout(() => setAnimateTitle(true), 100);
 
     // Set a timeout to trigger circle expansion and fade-out
     const expansionTimer = setTimeout(() => {
       setExpandCircle(true);
       setFadeOut(true);
-    }, 2500);
+    }, 2000);
 
     // Finish splash screen after animation ends
     const cleanupTimer = setTimeout(() => onFinish(), 3000);
@@ -65,7 +65,9 @@ const SplashScreen = ({ onFinish }) => {
           </span>
           xis
         </h1>
+        
         </div>
+        <p className="absolute bottom-0 text-center">Loading....</p>
     </div>
   );
 };
