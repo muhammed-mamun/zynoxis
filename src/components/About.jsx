@@ -9,7 +9,7 @@ const About = () => {
             Our Teams
           </p>
           <div>
-            <p className="text-zinc-200  mb-4 lg:mb-8 md:text-2xl ">
+            <p className="text-zinc-200 mx-2  mb-4 lg:mb-8 md:text-2xl ">
               At <span className="text-3xl font-bold">Zinoxis</span>, we are
               driven by a passion for solving real-world challenges through
               innovative solutions. Our mission is to empower people, foster
@@ -22,7 +22,7 @@ const About = () => {
               lasting change.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-0 rounded-none my-2 md:my-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-0 rounded-none my-2 md:my-6">
             <div className="card border rounded-none border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Software Engineering</h2>
@@ -96,8 +96,8 @@ const About = () => {
               </div>
             </div>
           </div>
-          <p className="py-6">People Behind...</p>
-          <div className="flex flex-wrap gap-10">
+          <p className="py-2 lg:py-6">People Behind...</p>
+          <div className="flex flex-wrap gap-2 lg:gap-10">
             <label
               data-tooltip-id="my-tooltip"
               data-tooltip-content="Hello world!"
