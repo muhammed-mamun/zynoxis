@@ -2,7 +2,7 @@ import { Tooltip } from "react-tooltip";
 
 const About = () => {
   return (
-    <div id="about" className="bg-zinc-800  w-screen   px-4 md:px-[10%]">
+    <div id="about" className="bg-zinc-800  w-full md:px-[10%]">
       <div>
         <div className=" p-7 rounded-2xl md:p-12">
           <p className="text-3xl font-bold md:text-5xl text-center my-6">
