@@ -2,7 +2,7 @@ import { Tooltip } from "react-tooltip";
 
 const About = () => {
   return (
-    <div id="about" className="bg-zinc-800  w-screen shadow-2xl  px-4 md:px-10">
+    <div id="about" className="bg-zinc-800  w-screen   px-4 md:px-[10%]">
       <div>
         <div className=" p-7 rounded-2xl md:p-12">
           <p className="text-3xl font-bold md:text-5xl text-center my-6">
@@ -18,12 +18,12 @@ const About = () => {
               committed to building a future where technology and creativity
               come together to make life better. With a focus on sustainability,
               collaboration, and continuous learning, we aim to grow alongside
-              our customers and partners. Together, let’s turn bold ideas into
+              our customers and partners. Together, let&apos;s turn bold ideas into
               lasting change.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-0 rounded-none my-2 md:my-6">
-            <div className="card border rounded-none border-zinc-100 w-96 shadow-xl">
+          <div className="grid grid-cols-4 gap-0 rounded-none my-2 md:my-6">
+            <div className="card border rounded-none border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Software Engineering</h2>
                 <p>
@@ -32,7 +32,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="card border rounded-none border-zinc-100 w-96 shadow-xl">
+            <div className="card border rounded-none border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Design & UX</h2>
                 <p>
@@ -41,7 +41,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="card rounded-none border border-zinc-100 w-96 shadow-xl">
+            <div className="card rounded-none border border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Artificial Intelligence (AI)</h2>
                 <p>
@@ -50,7 +50,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="card rounded-none border border-zinc-100 w-96 shadow-xl">
+            <div className="card rounded-none border border-zinc-100 shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Project Management</h2>
                 <p>
@@ -59,7 +59,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="card border rounded-none border-zinc-100 w-96 shadow-xl">
+            <div className="card border rounded-none border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Project Management</h2>
                 <p>
@@ -68,7 +68,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="card border rounded-none border-zinc-100 w-96 shadow-xl">
+            <div className="card border rounded-none border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Marketing</h2>
                 <p>
@@ -77,7 +77,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="card border rounded-none border-zinc-100 w-96 shadow-xl">
+            <div className="card border rounded-none border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Sales</h2>
                 <p>
@@ -86,7 +86,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="card border rounded-none border-zinc-100 w-96 shadow-xl">
+            <div className="card border rounded-none border-zinc-100  shadow-xl">
               <div className="card-body">
                 <h2 className="card-title">Research</h2>
                 <p>
