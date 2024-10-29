@@ -96,7 +96,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <p className="py-6">People Behind..</p>
+          <p className="py-6">People Behind...</p>
           <div className="flex flex-wrap gap-10">
             <label
               data-tooltip-id="my-tooltip"
@@ -174,33 +174,8 @@ const About = () => {
                 />
               </div>
             </label>
-            <label className="btn btn-ghost btn-circle w-20 h-20 border-blue-50 avatar">
-              <div className="w-20 h-20 rounded-full">
-                <img
-                  src={"/profile.jpg"}
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content="Hello"
-                />
-              </div>
-            </label>
-            <label className="btn btn-ghost btn-circle w-20 h-20 border-blue-50 avatar">
-              <div className="w-20 h-20 rounded-full">
-                <img
-                  src={"/profile.jpg"}
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content="Hello"
-                />
-              </div>
-            </label>
-            <label className="btn btn-ghost btn-circle w-20 h-20 border-blue-50 avatar">
-              <div className="w-20 h-20 rounded-full">
-                <img
-                  src={"/profile.jpg"}
-                  data-tooltip-id="my-tooltip"
-                  data-tooltip-content="Hello"
-                />
-              </div>
-            </label>
+
+
           </div>
         </div>
       </div>
